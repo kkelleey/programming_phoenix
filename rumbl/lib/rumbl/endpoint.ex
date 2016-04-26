@@ -33,7 +33,7 @@ defmodule Rumbl.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_rumbl_key",
-    signing_salt: "HGBzuD9x"
+    signing_salt: "aoCnR1g+"
 
   plug Rumbl.Router
 end

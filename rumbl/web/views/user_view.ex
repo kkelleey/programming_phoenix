@@ -1,3 +1,4 @@
+
 defmodule Rumbl.UserView do
   use Rumbl.Web, :view
   alias Rumbl.User
@@ -7,4 +8,5 @@ defmodule Rumbl.UserView do
     |> String.split(" ")
     |> Enum.at(0)
   end
+
 end
